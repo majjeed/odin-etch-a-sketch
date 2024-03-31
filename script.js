@@ -8,3 +8,11 @@ for (let i = 0; i < 16; i++) {
         container.appendChild(gridDiv);
     }
 }
+
+let gridDivs = document.querySelectorAll(".gridDiv");
+
+gridDivs.forEach(element => {
+    element.addEventListener("mouseover", function() {
+        this.style.backgroundColor = "green";
+    })
+});
