@@ -7,6 +7,12 @@ function createGrid(num = 16) {
             let gridDiv = document.createElement("div");
             gridDiv.setAttribute("class", "gridDiv");
             //gridDiv.style.cssText = "border: 2px solid red; width: 75px; height: 75px";
+            gridDiv.style.cssText = 
+            `
+            border: 2px solid red;
+            width: ${container.offsetWidth/num - 2}px;
+            padding-bottom: ${container.offsetWidth/num - 2}px;
+            `;
             container.appendChild(gridDiv);
         }
     }

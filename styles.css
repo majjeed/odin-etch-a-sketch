@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-color: blanchedalmond;
     display: flex;
@@ -14,15 +18,11 @@ body {
     justify-content: center;
 }
 
-.gridDiv {
-    box-sizing: border-box;
-    /* width: 6.25%;
-    padding-bottom: 6.25%; */
+/* .gridDiv {
     border: 2px solid red;
     width: calc(6.25% - 2px);
     padding-bottom: calc(6.25% - 2px);
-    /* height: 6.25%; */
-}
+} */
 
 /* .gridDiv:hover {
     background-color: greenyellow;
